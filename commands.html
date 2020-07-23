@@ -97,7 +97,8 @@ https://templatemo.com/tm-543-breezed
             <h2>指令列表</h2>
             <p style="color: #5fb759;"><u>開頭指令為：半形波浪號，也就是【~】<br>
                 使用英文大小寫皆可。<br>
-                以下指令皆可以私bot並執行</u></p>
+                以下指令皆可以私bot並執行</u><br><br>
+                以下圖片(含gif)為7月之前的截圖，與現在稍有不同，如有需要可實際玩玩看佩塔bot。</p>
             <br>
         </div>
         <div class="container" id="help" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
@@ -106,15 +107,20 @@ https://templatemo.com/tm-543-breezed
                 <table class="dcf-table dcf-table-responsive dcf-table-bordered dcf-table-striped dcf-w-100%">
                     <tbody>
                         <tr>
-                            <td>~help</td>
+                            <td>~help<br>~h</td>
                             <td>顯示出此指令表網址，跟聯繫佩塔</td>
                         </tr>
                         <tr>
-                            <td>~r [發言]<br>~rtts [發言]</td>
-                            <td>模仿你說的話。<br>
-                                rtts是會使用tts發聲的版本，電腦需要先有tts支援(不可匿名使用)；<br>
-                                r則是一般模仿(無聲)(可匿名使用)
-                                <br>Example：~r 安安你好<hr>
+                            <td>~r [發言]</td>
+                            <td>模仿你說的話，無聲版本(可匿名使用)<br>
+                                <br>Example：<u>~r 安安你好</u><hr>
+                                <p>[發言]有效參數：文字、字串、連結、表情符號等</p>
+                                <p>[發言]無效參數：圖片</p></td>
+                        </tr>
+                        <tr>
+                            <td>~rtts [發言]</td>
+                            <td>模仿你說的話，使用tts發聲的版本，電腦需要先有tts支援(不可匿名使用)；<br>
+                                <br>Example：<u>~rtts 安安你好</u><hr>
                                 <p>[發言]有效參數：文字、字串、連結、表情符號等</p>
                                 <p>[發言]無效參數：圖片</p></td>
                         </tr>
@@ -123,11 +129,11 @@ https://templatemo.com/tm-543-breezed
                             <td>顯示出此網站網址</td>
                         </tr>
                         <tr>
-                            <td>~feedback [發言]</td>
+                            <td>~feedback [發言]<br>~f [發言]</td>
                             <td>意見反饋功能，所發表的意見皆會匿名 傳到個人私群。<br>
                                 (私群連結在網頁最下方，更新日的上方&推特右邊)<br>
-                                <br>Example：<br>~feedback 安安你好(若字多可換行)<br>
-                                0123測試456測試789<hr>
+                                <br>Example：<br><u>~feedback 安安你好(若字多可換行)<br>
+                                0123測試456測試789</u><hr>
                                 <p>[發言]有效參數：文字、字串、連結、表情符號等</p>
                                 <p>[發言]無效參數：圖片</p></td>
                         </tr>
@@ -151,7 +157,7 @@ https://templatemo.com/tm-543-breezed
                 <table class="dcf-table dcf-table-responsive dcf-table-bordered dcf-table-striped dcf-w-100%">
                     <tbody>
                         <tr>
-                            <td>~ssrlist</td>
+                            <td>~ssrlist<br>~ssr</td>
                             <td>SSR角色表</td>
                         </tr>
                         <tr>
@@ -159,22 +165,17 @@ https://templatemo.com/tm-543-breezed
                             <td>武器練技表(gamewith)</td>
                         </tr>
                         <tr>
-                            <td>~gbf_timeline</td>
+                            <td>~gbf_timeline<br>~event<br>~schedule<br>~sc</td>
                             <td>自製GBF時程表(google試算表)</td>
                         </tr>
                         <tr>
-                            <td style="word-break: keep-all;">~peta_1t [屬性]</td>
-                            <td>佩塔1t牛(EX+)的隊伍參考<br>
-                                [屬性]請填入各屬(中英皆可 不需中括號)
-                                <br>Example：~peta_1t 光<hr>
-                                <p>[屬性]有效參數：火 , 水 , 土 , 風 , 光 , 闇 , 暗 , fire , water , earth , wind , light , dark</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="word-break: keep-all;">~peta_1t [屬性] FA</td>
-                            <td>用法同上，同時展示一般編成與FULLAUTO編成
-                                <br>Example：~peta_1t 光 FA<hr>
-                                <p>[屬性]有效參數：水 , 光 , water , light</p>
+                            <td style="word-break: keep-all;">~peta_1t [屬性]<br>~1t [屬性]<br>~ex+ [屬性]</td>
+                            <td>佩塔1t牛(EX+)的隊伍參考，[屬性]欄位請填入各屬(中英皆可 不需中括號)<br>
+                                若屬性結尾直接加上FA，則會出現FULLAUTO編成(FA兩字也可小寫)<br>
+                                不加[屬性]或[屬性]輸入錯誤則會出現指令說明示範(如下圖)。<br>
+                                <br>Example：<u>~peta_1t fire</u> | <u>~ex+ 光FA</u><hr>
+                                <p>[屬性]有效參數-一般編成：火 , 水 , 土 , 風 , 光 , 闇 , 暗 , fire , water , earth , wind , light , dark<br>
+                                    [屬性]有效參數-FA編成：水FA , 光FA , waterFA , lightFA</p>
                             </td>
                         </tr>
                     </tbody>
@@ -196,11 +197,11 @@ https://templatemo.com/tm-543-breezed
                 <table class="dcf-table dcf-table-responsive dcf-table-bordered dcf-table-striped dcf-w-100%">
                     <tbody>
                         <tr>
-                            <td >~rank</td>
+                            <td >~rank<br>~rk</td>
                             <td>角色RANK推薦表(E夢,無羽)</td>
                         </tr>
                         <tr>
-                            <td>~library</td>
+                            <td>~library<br>~lib</td>
                             <td>蘭德索爾圖書館(公連wiki)</td>
                         </tr>
                         <tr>
@@ -234,7 +235,7 @@ https://templatemo.com/tm-543-breezed
                             <li><a rel="nofollow" href="https://twitter.com/peta160904"><i class="fab fa-twitter"></i></a></li>
                             <li><a rel="nofollow" href="https://discord.gg/uTsfAFP"><i class="fab fa-discord"></i></a></li>
                         </ul>
-                        <p>最後更新日：2020/07/21</p>
+                        <p>最後更新日：2020/07/24</p>
                     </div>
                 </div>
             </div>
