@@ -1042,16 +1042,16 @@ about
 
 /*
 ---------------------------------------------
-commands-help, gbf, pcr
+commands-help, gbf, pcr, fun
 ---------------------------------------------
 */
 #commands{
   padding-top: 160px;
   padding-bottom: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
-#GBF{
+#GBF , #PCR{
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
@@ -1060,7 +1060,7 @@ commands-help, gbf, pcr
  
 }
 
-#PCR{
+#FUN{
   padding-bottom: 70px;
 }
 
