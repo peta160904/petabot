@@ -1055,9 +1055,12 @@ commands-help, gbf, pcr, fun
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
-#GBF img{
-  width: 65%;
- 
+
+@media (max-width: 767px){
+  #help img, #GBF img, #FUN img{
+    width: 100%;
+  
+  }
 }
 
 #FUN{
